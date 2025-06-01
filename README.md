@@ -1,4 +1,30 @@
-git add inventario_app.py
-git commit -m "Agrega aplicación completa de inventario"
-git push origin main# inventario-app
-Aplicación web de gestión de inventario con Streamlit, base de datos SQLite y reportes PDF/Excel
+## 🚀 Cómo desplegar localmente
+
+```bash
+# Clonar repositorio
+git clone https://github.com/jimmy042519/inventario-app.git
+cd inventario-app
+
+# Instalar dependencias
+pip install -r requirements.txt
+
+# Ejecutar
+streamlit run inventario_app.py
+```
+
+## 🌐 Acceso remoto
+La aplicación está disponible en:  
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://tu-app.streamlit.app)
+
+## 📝 Características principales
+- Gestión completa de productos
+- Importación/exportación Excel
+- Generación de reportes PDF
+- Dashboard analítico
+
+## 🛠️ Troubleshooting
+Si encuentras errores:
+```bash
+# Limpiar caché de Streamlit
+rm -rf ~/.streamlit
+```
